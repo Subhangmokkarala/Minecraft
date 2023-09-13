@@ -1,50 +1,46 @@
-[12:23:29] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:23:32] [ServerMain/INFO]: Loaded 7 recipes
-[12:23:32] [ServerMain/INFO]: Loaded 1271 advancements
-[12:23:33] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[12:23:33] [Server thread/INFO]: Loading properties
-[12:23:33] [Server thread/INFO]: Default game type: SURVIVAL
-[12:23:33] [Server thread/INFO]: Generating keypair
-[12:23:33] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:23:33] [Server thread/INFO]: Using epoll channel type
-[12:23:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:23:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:23:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:23:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:23:33] [Server thread/INFO]: Preparing level "world"
-[12:23:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:23:50] [Server thread/INFO]: Time elapsed: 9883 ms
-[12:23:50] [Server thread/INFO]: Done (17.015s)! For help, type "help"
-[12:28:51] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Input/output error
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
-	at ahe$1.run(SourceFile:89) ~[server-1.20.1.jar:?]
+[07:07:21] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07:07:23] [ServerMain/INFO]: Loaded 7 recipes
+[07:07:23] [ServerMain/INFO]: Loaded 1271 advancements
+[07:07:24] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[07:07:24] [Server thread/INFO]: Loading properties
+[07:07:24] [Server thread/INFO]: Default game type: SURVIVAL
+[07:07:24] [Server thread/INFO]: Generating keypair
+[07:07:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:07:24] [Server thread/INFO]: Using epoll channel type
+[07:07:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:07:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:07:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:07:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:07:24] [Server thread/INFO]: Preparing level "world"
+[07:07:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:07:42] [Worker-Main-1/INFO]: Preparing spawn area: 3%
+[07:07:43] [Server thread/INFO]: Time elapsed: 9654 ms
+[07:07:43] [Server thread/INFO]: Done (18.203s)! For help, type "help"
+[07:09:38] [Server thread/INFO]: luffyyy111[/45.249.79.44:54031] logged in with entity id 438 at (2.5, 83.0, -6.5)
+[07:09:38] [Server thread/INFO]: luffyyy111 joined the game
+[07:10:09] [Server thread/INFO]: luffyyy111 lost connection: Timed out
+[07:10:09] [Server thread/INFO]: luffyyy111 left the game
+[07:10:09] [Server thread/INFO]: luffyyy111[/45.249.79.44:54051] logged in with entity id 607 at (2.5, 83.0, -6.5)
+[07:10:09] [Server thread/INFO]: luffyyy111 joined the game
+[07:13:17] [Server thread/WARN]: luffyyy111 moved too quickly! -2.0251056861646077,-9.354893299348362,-3.363171299281163
+[07:22:07] [Server thread/INFO]: luffyyy111 was slain by Zombie
+[07:25:16] [Server thread/INFO]: luffyyy111 lost connection: Disconnected
+[07:25:16] [Server thread/INFO]: luffyyy111 left the game
