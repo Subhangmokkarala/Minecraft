@@ -1,9 +1,14 @@
 ssh root@ip address
 enter ssh passkey
-git clone https://github.com/Subhangmokkarala/Minecraft.git
+git clone https://github.com/Your Minecraft repo/Minecraft.git
 apt install openjdk-19-jre-headless
 cd Minecraft
-java -Xmx3024M -Xms3024M -jar server.jar nogui
+java -Xmx3024M -Xms3024M -jar server.jar nogui - (we can change ram based on your server allocation and all)
+
+if you cant join server 
+ufw allow 25565/tcp
+
+
 
 to save 
 git config --global user.email "you@example.com"
