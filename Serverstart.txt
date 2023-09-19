@@ -1,0 +1,15 @@
+ssh root@ip address
+enter ssh passkey
+git clone https://github.com/Subhangmokkarala/Minecraft.git
+apt install openjdk-19-jre-headless
+cd Minecraft
+java -Xmx3024M -Xms3024M -jar server.jar nogui
+
+to save 
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git commit -m "random commit"
+git push
+enter your git username
+enter github password
+git push
