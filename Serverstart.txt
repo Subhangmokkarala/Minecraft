@@ -5,6 +5,7 @@ apt install openjdk-19-jre-headless
 cd Minecraft
 java -Xmx3024M -Xms3024M -jar server.jar nogui - (we can change ram based on your server allocation and all)
 
+
 if you cant join server 
 ufw allow 25565/tcp
 
